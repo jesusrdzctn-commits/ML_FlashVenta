@@ -1,0 +1,11 @@
+#manipulación y análisis de datos tabulares (DataFrame)
+pandas==1.5.3
+
+#operaciones numéricas, arrays y funciones estadísticas usadas por transformaciones y cálculos
+numpy>=1.21.0
+
+#modelo de boosting eficiente para regresión/classificación (se usa para pronósticos avanzados)
+xgboost>=1.5.0
+
+#modelo de series temporales (Trend + seasonality + holidays)
+prophet>=1.1.0

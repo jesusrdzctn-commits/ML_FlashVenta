@@ -1,0 +1,84 @@
+# Datos sensibles
+Input/
+Output/
+respaldo/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.env
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Modelos ML
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pth
+*.ckpt
+best_model.pth
+*.model
+*.bin
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# MLflow
+mlruns/
+mlflow.db
+mlflow.db-journal
+mlflow-artifacts/
+mlflow-tracking/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configuración local
+config.ini
+secrets.json
+*.key
+*.pem
+
+# Datos de prueba
+test_data/
+sample_data/
+*.csv.bak
+*.xlsx.bak
+
+# Logs específicos
+logs/
+*.log.* 
+
+/mlartifacts/
