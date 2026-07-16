@@ -2,8 +2,6 @@
 """
 PepsiCo Financial Forecasting - Modelo Certero para Series Financieras
 Sistema conservador optimizado para precisión en pronósticos de ventas
-Autor: Armando Vargas
-Fecha: 2025-08-28
 """
 
 import pandas as pd
@@ -151,7 +149,7 @@ class PepsicoFinancialForecast:
         
         # Limpiar datos
         df = df.copy()
-        df['Dia Fecha'] = pd.to_datetime(df['Dia Fecha'], format='%d/%m/%Y', errors='coerce')
+        df['Dia Fecha'] = pd.to_datetime(df['Dia Fecha'], format='%m/%d/%Y', errors='coerce')
         df['Venta Pesos'] = pd.to_numeric(df['Venta Pesos'], errors='coerce').fillna(0)
         df['Canal de Venta'] = df['Canal de Venta'].astype(str).str.strip()
         df['Unidad Negocio'] = df['Unidad Negocio'].astype(str).str.strip()
